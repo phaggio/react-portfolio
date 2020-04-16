@@ -1,7 +1,6 @@
 import React from 'react';
+import PortfolioContainer from '../components/PortfolioContainer';
 
 const Portfolio = () =>
-  <div>
-    {`Portfolio`}
-  </div>
+  <PortfolioContainer />
 export default Portfolio;

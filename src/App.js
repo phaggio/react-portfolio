@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // import logo from './logo.svg';
 import './App.css';
 
@@ -13,9 +13,11 @@ function App() {
     <Router basename={process.env.PUBLIC_URL}>
       <div>
         <Navbar />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contact" component={Contact} />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/contact" component={Contact} />
+        </Switch>
       </div>
     </Router>
   );

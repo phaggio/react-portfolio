@@ -1,0 +1,34 @@
+[
+  {
+      "name": "Weather Dashboard",
+      "description": "This is a weather dashboard, where user can search for a city and find its current weather condition, 3-hour interval forecast, and 5-days weather forecast of the city.",
+      "link": "https://phaggio.github.io/weather-dashboard/",
+      "github": "https://github.com/phaggio/weather-dashboard",
+      "imgURL": "./images/weather-dashboard.png",
+      "carouselStatus": "active"
+  },
+  {
+      "name": "Code Quiz",
+      "description": "This repository creates a timed muitiple-choice question quiz that tests user's Javascript knowledge. There are 10 multiple choice questions and user is given 200 seconds to answer them.",
+      "link": "https://phaggio.github.io/code-quiz/",
+      "github": "https://github.com/phaggio/code-quiz",
+      "imgURL": "./images/code-quiz.png",
+      "carouselStatus": ""
+  },
+  {
+      "name": "Project Tracker",
+      "description": "This is a web application where teams can track their project development progress, issues, etc.",
+      "link": "https://the-best-project-manager.herokuapp.com/",
+      "github": "https://github.com/maximilianc88/Project-Planner-Application",
+      "imgURL": "./images/project-tracker.png",
+      "carouselStatus": ""
+  },
+  {
+      "name": "Burger",
+      "description": "This is a simple burger logger app that demonstrate the use of MVC design pattern.",
+      "link": "https://phaggio-burger.herokuapp.com/",
+      "github": "https://github.com/phaggio/burger",
+      "imgURL": "./images/burger.png",
+      "carouselStatus": ""
+  }
+]
