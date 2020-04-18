@@ -4,7 +4,7 @@
         "description": "This is a single page weather app, where user can look up weather for a city or user's current city. It shows current weather conditipon, 3-hour interval forecast for the next 3 days or 5 days",
         "link": "https://phaggio.github.io/weather-dashboard/",
         "github": "https://github.com/phaggio/weather-dashboard",
-        "imgURL": "/assets/images/projects/weather-dashboard.png"
+        "imgURL": "./assets/images/projects/weather-dashboard.png"
     },
     {
         "name": "Code Quiz",

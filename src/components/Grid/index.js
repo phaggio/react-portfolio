@@ -2,7 +2,9 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 export function Container({ fluid, children }) {
-  return <div className={`container${fluid ? `-fluid` : ``}`}>{children}</div>;
+  return (
+    <div className={`container${fluid ? `-fluid` : ``}`}>{children}</div>
+  );
 }
 Container.propTypes = {
   children: PropTypes.node,
@@ -10,7 +12,9 @@ Container.propTypes = {
 };
 
 export function Row({ fluid, children }) {
-  return <div className={`row${fluid ? `-fluid` : ``}`}>{children}</div>;
+  return (
+    <div className={`row${fluid ? `-fluid` : ``}`}>{children}</div>
+  );
 }
 Row.propTypes = {
   children: PropTypes.node,
