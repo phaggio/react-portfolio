@@ -7,9 +7,12 @@ import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
+const githubDir = `/react-portfolio/`;
+
 function App() {
+  console.log(`${process.env.PUBLIC_URL+githubDir}`)
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={process.env.PUBLIC_URL + githubDir}>
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
