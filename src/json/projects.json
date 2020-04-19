@@ -30,5 +30,13 @@
         "link": "https://phaggio-burger.herokuapp.com/",
         "github": "https://github.com/phaggio/burger",
         "imgURL": "/assets/images/projects/burger-app.png"
+    },
+    {
+        "name": "Employee Tracker",
+        "subtitle": "A CLI application that allows user to communicate with local mysql database.",
+        "description": "This is a sample CLI application that user can add/edit/remove employees, roles, and teams from a database within the organization.",
+        "link": "https://github.com/phaggio/employee-tracker",
+        "github": "https://github.com/phaggio/employee-tracker",
+        "imgURL": "/assets/images/projects/employee-tracker.png"
     }
 ]
