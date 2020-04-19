@@ -9,25 +9,17 @@ const PortfolioContainer = () => {
 
       <Row>
         {projects.map(project => 
-          <Col size="sm-12 md-6 lg-4" key={project.name}>
-            <ProjectCard name={project.name} imgURL={project.imgURL}/>
-          </Col>
+            <Col size="sm-12 md-6 lg-4" key={project.name}>
+              <ProjectCard
+                name={project.name}
+                subtitle={project.subtitle}
+                description={project.description}
+                imgURL={project.imgURL}
+                github={project.github}
+                link={project.link}
+              />
+            </Col>
         )}
-        {/* <Col size="sm-12 md-6 lg-4">
-        <ProjectCard />
-      </Col>
-      <Col size="sm-12 md-6 lg-4">
-        <ProjectCard />
-      </Col>
-      <Col size="sm-12 md-6 lg-4">
-        <ProjectCard />
-      </Col>
-      <Col size="sm-12 md-6 lg-4">
-        <ProjectCard />
-      </Col>
-      <Col size="sm-12 md-6 lg-4">
-        <ProjectCard />
-      </Col> */}
 
       </Row>
     </Container>
