@@ -13,10 +13,10 @@ const Navbar = () => {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <div id="main-navbar" class="navbar-nav ml-auto" role="navigation">
+        <div id="main-navbar" className="navbar-nav ml-auto" role="navigation">
           <Link className="nav-item nav-link" to="/">Home</Link>
           <Link className="nav-item nav-link" to="/portfolio">Portfolio</Link>
-          <Link className="nav-item nav-link" to="/contact">Contact</Link>
+          <Link className="nav-item nav-link" to="/resume">Resume</Link>
 
         </div>
       </div>
