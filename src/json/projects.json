@@ -1,13 +1,15 @@
 [
     {
         "name": "Weather app",
+        "subtitle": "A single-page application that shows weather condition.",
         "description": "This is a single page weather app, where user can look up weather for a city or user's current city. It shows current weather conditipon, 3-hour interval forecast for the next 3 days or 5 days",
         "link": "https://phaggio.github.io/weather-dashboard/",
         "github": "https://github.com/phaggio/weather-dashboard",
-        "imgURL": "./assets/images/projects/weather-dashboard.png"
+        "imgURL": "/assets/images/projects/weather-dashboard.png"
     },
     {
         "name": "Code Quiz",
+        "subtitle": "A single-page application that tests user's programming knowledge.",
         "description": "This repository creates a timed muitiple-choice question quiz that tests user's Javascript knowledge. There are 10 multiple choice questions and user is given 200 seconds to answer them.",
         "link": "https://phaggio.github.io/code-quiz/",
         "github": "https://github.com/phaggio/code-quiz",
@@ -15,16 +17,18 @@
     },
     {
         "name": "Project Tracker",
+        "subtitle": "A full-stack application for tracking project development.",
         "description": "This is a web application where teams can track their project development progress, issues, etc.",
         "link": "https://the-best-project-manager.herokuapp.com/",
         "github": "https://github.com/maximilianc88/Project-Planner-Application",
         "imgURL": "/assets/images/projects/project-tracker.png"
     },
     {
-        "name": "Burger",
+        "name": "Burger app",
+        "subtitle": "A single-page application that shows simple MVC design pattern.",
         "description": "This is a simple burger logger app that demonstrate the use of MVC design pattern.",
         "link": "https://phaggio-burger.herokuapp.com/",
         "github": "https://github.com/phaggio/burger",
-        "imgURL": "/assets/images/projects/burger.png"
+        "imgURL": "/assets/images/projects/burger-app.png"
     }
 ]

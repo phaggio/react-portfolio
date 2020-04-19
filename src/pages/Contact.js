@@ -2,6 +2,6 @@ import React from 'react';
 
 const Contact = () =>
   <div>
-    {`Contact`}
+    {`Coming soon!`}
   </div>
 export default Contact;
