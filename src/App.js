@@ -10,14 +10,12 @@ import Resume from './pages/Resume';
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <div>
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/resume" component={Resume} />
         </Switch>
-      </div>
       <Footer />
     </Router>
   );
