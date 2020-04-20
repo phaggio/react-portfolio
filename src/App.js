@@ -11,7 +11,7 @@ function App() {
   console.log(`${process.env.PUBLIC_URL}`)
   return (
     <Router basename={process.env.PUBLIC_URL}>
-        <Navbar dir={githubDir}/>
+        <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
