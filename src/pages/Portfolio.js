@@ -3,6 +3,8 @@ import { Col, Container, Row } from '../components/Grid';
 import ProjectCard from '../components/ProjectCard';
 import projects from '../json/projects.json';
 
+const githubDir = `/react-portfolio`;
+
 const Portfolio = () => {
   return (
     <div className="background">
@@ -14,7 +16,7 @@ const Portfolio = () => {
                 name={project.name}
                 subtitle={project.subtitle}
                 description={project.description}
-                imgURL={project.imgURL}
+                imgURL={githubDir+project.imgURL}
                 github={project.github}
                 link={project.link}
               />

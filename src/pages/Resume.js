@@ -7,7 +7,7 @@ const Resume = () => {
       className=""
       src={"https://docs.google.com/gview?url=https://raw.githubusercontent.com/phaggio/resume/master/RichardWangResume.pdf&embedded=true"}
       width="100%"
-      height="700px"
+      height="800px"
       title="Richard Wang"
     ></iframe>
   )
