@@ -10,7 +10,7 @@ import Resume from './pages/Resume';
 function App() {
   console.log(`${process.env.PUBLIC_URL}`)
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />

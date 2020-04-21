@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+// const subDir = process.env.PUBLIC_URL;
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-sm  sticky-top navbar-dark bg-dark" role="navigation">
-      <Link className="navbar-brand" href="/">Richard Wang</Link>
+      <Link className="navbar-brand" to="/">Richard Wang</Link>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>

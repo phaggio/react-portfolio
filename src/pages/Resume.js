@@ -9,12 +9,11 @@ const Resume = () => {
       width="100%"
       height="800px"
       title="Richard Wang"
-    ></iframe>
+    >
+
+    </iframe>
   )
 }
-
-
-
 
 
 export default Resume;
