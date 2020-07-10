@@ -1,18 +1,18 @@
 ## Overview
 
-This is my profile page, where you can learn more about my background, projects, hobbies, and contact info.
+This is my portfolio page, where you can see the projects I've worked on.
+
 
 ## Technologies
 
-* HTML
-* CSS
-* Javascript
+* JavaScript
 * React
-* Bootstrap CSS framework
-* Font Awesome toolkit
 * Node.js
+* Bootstrap
+* Font Awesome toolkit
+
 
 ## Features
 
 * Mobile friendly and responsive layout
-* Project data (name, description, links, etc.) and about me data (about me, background, hobbies, skills) are stored in separate JSON files for easy update
+* Project data (name, description, URL, etc.) are stored in JSON for easy update.
