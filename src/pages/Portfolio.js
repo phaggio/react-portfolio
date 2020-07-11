@@ -16,7 +16,7 @@ const Portfolio = () => {
                 name={project.name}
                 subtitle={project.subtitle}
                 description={project.description}
-                imgURL={githubDir+project.imgURL}
+                imgURL={githubDir + project.imgURL}
                 github={project.github}
                 link={project.link}
               />
