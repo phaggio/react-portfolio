@@ -56,22 +56,22 @@ const Col = ({ size, px, mx, py, my, other, children }) => {
           .split(` `)
           .map(size => `col-${size}`)
           .join(` `)}
-        ${px
+        ${px ? px
           .split(` `)
           .map(px => `px-${px}`)
-          .join(` `)}
-        ${mx
+          .join(` `) : ``}
+        ${mx ? mx
           .split(` `)
           .map(mx => `mx-${mx}`)
-          .join(` `)}
-        ${py
+          .join(` `) : ``}
+        ${py ? py
           .split(` `)
           .map(py => `py-${py}`)
-          .join(` `)}
-        ${my
+          .join(` `) : ``}
+        ${my ? my
           .split(` `)
           .map(my => `my-${my}`)
-          .join(` `)}
+          .join(` `) : ``}
         ${other ? other : ``}`
       }
     >
