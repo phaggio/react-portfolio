@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './style.css';
 
-const ProjectCard = (props) => {
+const ProjectCard = props => {
   return (
     <div className="card h-100">
       <img src={props.imgURL} className="card-img-top" alt={props.name} />
