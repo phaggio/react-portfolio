@@ -14,7 +14,8 @@
         "description": "This repository creates a timed muitiple-choice question quiz that tests user's Javascript knowledge. There are 10 multiple choice questions and user is given 200 seconds to answer them.",
         "link": "https://phaggio.github.io/code-quiz/",
         "github": "https://github.com/phaggio/code-quiz",
-        "imgURL": "/assets/images/projects/code-quiz.png"
+        "imgURL": "/assets/images/projects/code-quiz.png",
+        "technologies": ["JavaScript", "Bootstrap", "HTML", "CSS"]
     },
     {
         "name": "Project Tracker",
@@ -22,7 +23,8 @@
         "description": "This is a web application where teams can track their project development progress, issues, etc.",
         "link": "https://the-best-project-manager.herokuapp.com/",
         "github": "https://github.com/maximilianc88/Project-Planner-Application",
-        "imgURL": "/assets/images/projects/project-tracker.png"
+        "imgURL": "/assets/images/projects/project-tracker.png",
+        "technologies": ["JavaScript", "jQuery", "mySQL", "Express.js", "Sequelize", "Font Awesome"]
     },
     {
         "name": "Burger app",
@@ -30,7 +32,8 @@
         "description": "This is a simple burger logger app that demonstrate the use of MVC design pattern.",
         "link": "https://phaggio-burger.herokuapp.com/",
         "github": "https://github.com/phaggio/burger",
-        "imgURL": "/assets/images/projects/burger-app.png"
+        "imgURL": "/assets/images/projects/burger-app.png",
+        "technologies": ["JavaScript", "Express.js", "MySQL", "jQuery", "Bootstrap"]
     },
     {
         "name": "Employee Tracker",
@@ -38,6 +41,7 @@
         "description": "This is a sample CLI application that user can add/edit/remove employees, roles, and teams from a database within the organization.",
         "link": "https://github.com/phaggio/employee-tracker",
         "github": "https://github.com/phaggio/employee-tracker",
-        "imgURL": "/assets/images/projects/employee-tracker.png"
+        "imgURL": "/assets/images/projects/employee-tracker.png",
+        "technologies": ["JavaScript", "console.table", "inquirer", "MySQL"]
     }
 ]

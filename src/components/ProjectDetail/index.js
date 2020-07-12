@@ -23,27 +23,31 @@ const ProjectDetail = props => {
 
             <div className="w-100 d-flex justify-content-center">
               {/* <img className="" src="https://via.placeholder.com/450x150" /> */}
-              <img style={imgSize} src={githubDir+props.project.imgURL} />
+              <img style={imgSize} src={githubDir + props.project.imgURL} />
             </div>
-            
+
             <hr />
           </Col>
         </Row>
 
         <Row>
-          <Col size="6">
-            <div className="d-flex flex-column">
-              <a className="my-1 btn btn-primary" href={props.project.link} target="_blank">Application</a>
-              <a className="my-1 btn btn-info" href={props.project.github} target="_blank">GitHub Page</a>
+          <Col size="12 sm-6">
+            <div className="d-flex flex-column align-items-center">
+              <a className="my-1 btn btn-primary w-75" href={props.project.link} target="_blank">Application</a>
+              <a className="my-1 btn btn-info w-75" href={props.project.github} target="_blank">GitHub Page</a>
             </div>
+
+            <hr className="d-block d-sm-none" />
           </Col>
 
-          <Col size="6">
-            <h4 className="text-center">Technologies</h4>
+
+
+          <Col size="12 sm-6">
+            <h5 className="text-center">Technologies</h5>
             <ul className="list-group list-group-flush">
-              {props.project.technologies.map(tech =>
-                <li className="list-group-item bg-light">{tech}</li>
-              )}
+              {props.project.technologies ? props.project.technologies.map(tech =>
+                <li className="list-group-item bg-light" key={tech}>{tech}</li>
+              ) : ``}
             </ul>
           </Col>
         </Row>
