@@ -1,14 +1,9 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Col, Container, Row } from '../components/Grid';
 import ProjectCard from '../components/ProjectCard';
 import projects from '../json/projects.json';
 
 const githubDir = `/react-portfolio`;
-
-const overflow = {
-  overflowX: 'auto',
-  overflowY: 'auto'
-};
 
 const maxHeight = {
   maxHeight: '75vh',
@@ -17,45 +12,49 @@ const maxHeight = {
 }
 
 const Portfolio = () => {
+  const [projectList, setProjectList] = useState([projects]);
+  const [selectedProject, setSelectedProject] = useState([projects[0]])
+
+  console.log(selectedProject)
   return (
-    <div className="background">
-      <Container other="" style={maxHeight}>
+    <div>
+
+      <Container other="mt-1" style={maxHeight}>
         <Row other="border border-primary rounded p-2">
+
           <Col
-            size="sm-12 md-12 lg-4 xl-3" 
+            size="sm-12 md-12 lg-4 xl-3"
             other="border border-warning rounded"
-            py="2" my="2"
-            style={maxHeight}
-          >
-            <div className="d-flex flex-sm-row flex-md-row flex-lg-column" 
+            py="2" my="2">
+            <label>Projects:</label>
+            <div className="d-flex flex-sm-row flex-md-row flex-lg-column align-items-center"
               style={maxHeight}>
-              <div className="border border-secondary rounded p-3 m-1">Project 1</div>
-              <div className="border border-secondary rounded p-3 m-1">Project 2</div>
-              <div className="border border-secondary rounded p-3 m-1">Project 3</div>
-              <div className="border border-secondary rounded p-3 m-1">Project 4</div>
-              <div className="border border-secondary rounded p-3 m-1">Project 5</div>
-              <div className="border border-secondary rounded p-3 m-1">Project 6</div>
-              <div className="border border-secondary rounded p-3 m-1">Project 7</div>
-              <div className="border border-secondary rounded p-3 m-1">Project 8</div>
-              <div className="border border-secondary rounded p-3 m-1">Project 9</div>
-              <div className="border border-secondary rounded p-3 m-1">Project 10</div>
-              <div className="border border-secondary rounded p-3 m-1">Project 11</div>
-              <div className="border border-secondary rounded p-3 m-1">Project 12</div>
-              <div className="border border-secondary rounded p-3 m-1">Project 13</div>
-              <div className="border border-secondary rounded p-3 m-1">Project 14</div>
+
+
+              {projects.map(project =>
+                <ProjectCard
+                  key={project.name}
+                  name={project.name}
+                  subtitle={project.subtitle}
+                />
+              )}
+
+
             </div>
           </Col>
+
+
           <Col size="sm-12 md-12 lg-8 xl-9"
             other="border border-danger rounded mh-50"
-            py="2" my="2"
-          >
+            py="2" my="2">
             <div className="">project detail</div>
           </Col>
         </Row>
+
+
       </Container>
 
-
-      <Container>
+      {/* <Container>
         <Row>
           {projects.map(project =>
             <Col size="sm-12 md-6 lg-4" key={project.name}>
@@ -69,9 +68,9 @@ const Portfolio = () => {
               />
             </Col>
           )}
-
         </Row>
-      </Container>
+      </Container> */}
+
     </div>
   )
 }
