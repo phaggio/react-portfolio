@@ -1,14 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Container, Col, Row } from '../Grid';
-// import './style.css';
+import './style.css';
 
 
 const size = {
   width: "10rem"
 }
 
-const ProjectCard = props => {
+const ProjectButton = props => {
   return (
     // <div className="card h-100">
     //   <img src={props.imgURL} className="card-img-top" alt={props.name} />
@@ -25,7 +24,7 @@ const ProjectCard = props => {
     // </div>
 
 
-    <button type="button" className="m-1 btn btn-primary btn-block">
+    <button type="button" className="project m-1 btn btn-dark btn-block">
       <div className="d-flex flex-column align-items-center">
 
         <h6 className="d-flex justify-content-center align-items-center" style={size}>
@@ -42,7 +41,7 @@ const ProjectCard = props => {
   )
 }
 
-ProjectCard.propTypes = {
+ProjectButton.propTypes = {
   name: PropTypes.string,
   subtitle: PropTypes.string,
   description: PropTypes.string,
@@ -51,7 +50,7 @@ ProjectCard.propTypes = {
   imgURL: PropTypes.string
 }
 
-export default ProjectCard;
+export default ProjectButton;
 
 
 /* <Container className="">
