@@ -6,11 +6,9 @@ const githubDir = `/react-portfolio`;
 const imgSize = {
   height: "100%",
   width: "100%"
-}
-
+};
 
 const ProjectDetail = props => {
-
 
   return (
     <div>

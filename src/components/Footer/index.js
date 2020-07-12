@@ -1,19 +1,27 @@
 import React from 'react';
 
+
 const Footer = () => {
 
+  // const themeContext = useContext(ThemeContext);
+
   return (
-    <nav className="footer navbar navbar-expand fixed-bottom navbar-dark bg-dark" role="navigation">
-      <div className="navbar-nav" role="navigation">
-        <a className="nav-item nav-link text-center" href={"https://github.com/phaggio/"}
-          rel="noopener noreferrer" target="_blank">
+    <nav className="navbar fixed-bottom navbar-dark bg-dark justify-content-between">
+      <small className="text-light">react portfolio by phaggio</small>
+
+      <div className="d-flex">
+        <a className="nav-item nav-link p-0 ml-2" href={"https://github.com/phaggio/"}
+          target="_blank">
           <i className="fab fa-github-square fa-2x"></i>
         </a>
-        <a className="nav-item nav-link text-center" href={"https://www.linkedin.com/in/richard-c-wang/"}
-          rel="noopener noreferrer" target="_blank">
+
+        <a className="nav-item nav-link p-0 ml-2" href={"https://www.linkedin.com/in/richard-c-wang/"}
+          target="_blank">
           <i className="fab fa-linkedin fa-2x"></i>
         </a>
       </div>
+
+
     </nav>
   )
 }
