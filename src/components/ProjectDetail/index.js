@@ -2,7 +2,11 @@ import React from 'react';
 import { Container, Row, Col } from '../Grid';
 import PropTypes from 'prop-types';
 
-
+const githubDir = `/react-portfolio`;
+const imgSize = {
+  height: "100%",
+  width: "100%"
+}
 
 
 const ProjectDetail = props => {
@@ -16,9 +20,12 @@ const ProjectDetail = props => {
             <div className="display-4 text-center">{props.project.name}</div>
             <small className="">{props.project.subtitle}</small>
             <p className="mt-2">{props.project.description}</p>
+
             <div className="w-100 d-flex justify-content-center">
-              <img className="" src="https://via.placeholder.com/450x150" />
+              {/* <img className="" src="https://via.placeholder.com/450x150" /> */}
+              <img style={imgSize} src={githubDir+props.project.imgURL} />
             </div>
+            
             <hr />
           </Col>
         </Row>
@@ -33,11 +40,15 @@ const ProjectDetail = props => {
 
           <Col size="6">
             <h4 className="text-center">Technologies</h4>
-            {props.project.technologies.map(tech =>
-              <li>{tech}</li>
-            )}
+            <ul className="list-group list-group-flush">
+              {props.project.technologies.map(tech =>
+                <li className="list-group-item bg-light">{tech}</li>
+              )}
+            </ul>
           </Col>
         </Row>
+
+
       </Container>
     </div>
 

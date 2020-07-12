@@ -51,13 +51,3 @@ ProjectButton.propTypes = {
 }
 
 export default ProjectButton;
-
-
-/* <Container className="">
-  <Row>
-    <Col size="12">
-    <h6>Project Name goes here</h6>
-    <small className="d-none d-sm-none d-md-none d-lg-block">psmalloject description and subtext goes here, say something about the projects</small>
-    </Col>
-  </Row>
-</Container> */

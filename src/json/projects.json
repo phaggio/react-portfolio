@@ -6,7 +6,7 @@
         "link": "https://phaggio.github.io/weather-dashboard/",
         "github": "https://github.com/phaggio/weather-dashboard",
         "imgURL": "/assets/images/projects/weather-dashboard.png",
-        "technologies": ["JavaScript", "HTML", "CSS", "jQuery", "Moment.js", "Bootstrap", "Google Font"]
+        "technologies": ["JavaScript", "jQuery", "Moment.js", "Bootstrap", "Google Font"]
     },
     {
         "name": "Code Quiz",
