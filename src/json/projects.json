@@ -43,5 +43,14 @@
         "github": "https://github.com/phaggio/employee-tracker",
         "imgURL": "/assets/images/projects/employee-tracker.png",
         "technologies": ["JavaScript", "console.table", "inquirer", "MySQL"]
+    },
+    {
+        "name": "Order Up",
+        "subtitle": "A full-stack application for restaurant owner and employees.",
+        "description": "This is a full-stack application, using the MERN stack (MongoDB, Express.js, React, Node.js). Restaurant owner can add/edit/remove restaurant employees, menu items, and inventories. Employees such as servers and chefs can use the front end UI to take customer orders, pass them to chef for preparation, and check off the orders once they're made.",
+        "link": "https://order-up-jkrtr.herokuapp.com/",
+        "github": "https://github.com/phaggio/order-up",
+        "imgURL": "/assets/images/projects/employee-tracker.png",
+        "technologies": ["JavaScript", "console.table", "inquirer", "MySQL"]
     }
 ]
