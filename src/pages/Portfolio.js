@@ -22,11 +22,13 @@ const Portfolio = () => {
     <div>
 
       <Container other="mt-1" style={maxHeight}>
-        <Row other="border border-primary rounded p-2">
+        <Row
+          // other="border border-primary rounded p-2"
+        >
 
           <Col
             size="sm-12 md-12 lg-4 xl-3"
-            other="border border-warning rounded"
+            // other="border border-warning rounded"
             py="2" my="2">
 
             <div className="d-flex justify-content-center justify-content-lg-start">
@@ -52,7 +54,7 @@ const Portfolio = () => {
           </Col>
 
           <Col size="sm-12 md-12 lg-8 xl-9"
-            other="border border-danger rounded mh-50"
+            // other="border border-danger rounded mh-50"
             py="2" my="2">
             <ProjectDetail project={selectedProject} />
           </Col>

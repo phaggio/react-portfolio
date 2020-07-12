@@ -17,8 +17,12 @@ const ProjectDetail = props => {
           <Col size="12">
             <div className="display-4 text-center">{props.project.name}</div>
             <small className="">{props.project.subtitle}</small>
+
+            <hr />
             <p className="mt-2">{props.project.description}</p>
 
+            <hr />
+            <label>Screenshot</label>
             <div className="w-100 d-flex justify-content-center">
               {/* <img className="" src="https://via.placeholder.com/450x150" /> */}
               <img style={imgSize} alt="app screenshot" src={githubDir + props.project.imgURL} />
