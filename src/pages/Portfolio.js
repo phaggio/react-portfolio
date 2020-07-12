@@ -21,24 +21,14 @@ const Portfolio = () => {
   return (
     <div>
 
-      <Container other="mt-1" style={maxHeight}>
-        <Row
-          // other="border border-primary rounded p-2"
-        >
-
-          <Col
-            size="sm-12 md-12 lg-4 xl-3"
-            // other="border border-warning rounded"
-            py="2" my="2">
-
+      <Container other="mt-1">
+        <Row>
+          <Col size="sm-12 md-12 lg-4 xl-3" py="2" my="2">
             <div className="d-flex justify-content-center justify-content-lg-start">
               <label className="text-dark font-weight-bold">Projects:</label>
             </div>
 
-            <div className="d-flex flex-sm-row flex-md-row flex-lg-column align-items-center"
-              style={maxHeight}>
-
-
+            <div className="d-flex flex-sm-row flex-md-row flex-lg-column align-items-center" style={maxHeight}>
               {projects.map((project, index) =>
                 <ProjectButton
                   key={project.name}
@@ -48,27 +38,20 @@ const Portfolio = () => {
                   pressed={projectButtonPress}
                 />
               )}
-
-
             </div>
           </Col>
 
-          <Col size="sm-12 md-12 lg-8 xl-9"
-            // other="border border-danger rounded mh-50"
-            py="2" my="2">
+          <Col size="sm-12 md-12 lg-8 xl-9" py="2" my="2">
             <ProjectDetail project={selectedProject} />
           </Col>
         </Row>
-
-
       </Container>
 
-
       {/* console log tools */}
-      <div>
+      {/* <div>
         <button className="btn btn-warning m-1" onClick={() => console.log(projects)}>print projects</button>
         <button className="btn btn-warning m-1" onClick={() => console.log(selectedProject)}>print selectedProject</button>
-      </div>
+      </div> */}
     </div>
   )
 }

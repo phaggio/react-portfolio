@@ -25,7 +25,7 @@ const ProjectDetail = props => {
             <label>Screenshot</label>
             <div className="w-100 d-flex justify-content-center">
               {/* <img className="" src="https://via.placeholder.com/450x150" /> */}
-              <img style={imgSize} alt="app screenshot" src={githubDir + props.project.imgURL} />
+              <img style={imgSize} alt={`${props.project.name} screenshot`} src={githubDir + props.project.imgURL} />
             </div>
 
             <hr />
