@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Col, Row } from '../components/Grid';
+import { Container } from '../components/Grid';
 import resume from '../json/resume.json'
 
 const style = {

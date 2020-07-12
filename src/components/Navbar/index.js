@@ -22,9 +22,9 @@ const Navbar = () => {
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <div className="navbar-nav ml-auto" role="navigation">
-          <Link className="nav-item nav-link" to="/">Home</Link>
-          <Link className="nav-item nav-link" to="/portfolio/">Portfolio</Link>
-          <Link className="nav-item nav-link" to="/resume/">Resume</Link>
+          <Link className="nav-item nav-link text-light" to="/">Home</Link>
+          <Link className="nav-item nav-link text-light" to="/portfolio/">Portfolio</Link>
+          <Link className="nav-item nav-link text-light" to="/resume/">Resume</Link>
         </div>
       </div>
     </nav>

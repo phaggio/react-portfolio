@@ -21,7 +21,7 @@ const ProjectDetail = props => {
 
             <div className="w-100 d-flex justify-content-center">
               {/* <img className="" src="https://via.placeholder.com/450x150" /> */}
-              <img style={imgSize} src={githubDir + props.project.imgURL} />
+              <img style={imgSize} alt="app screenshot" src={githubDir + props.project.imgURL} />
             </div>
 
             <hr />
@@ -31,8 +31,10 @@ const ProjectDetail = props => {
         <Row>
           <Col size="12 sm-6">
             <div className="d-flex flex-column align-items-center">
-              <a className="my-1 btn btn-primary w-75" href={props.project.link} target="_blank">Application</a>
-              <a className="my-1 btn btn-info w-75" href={props.project.github} target="_blank">GitHub Page</a>
+              <a className="my-1 btn btn-primary w-75" rel="noopener noreferrer"
+                href={props.project.link} target="_blank">Application</a>
+              <a className="my-1 btn btn-info w-75" rel="noopener noreferrer"
+                href={props.project.github} target="_blank">GitHub Page</a>
             </div>
 
             <hr className="d-block d-sm-none" />

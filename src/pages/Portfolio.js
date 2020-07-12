@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Col, Container, Row } from '../components/Grid';
 import ProjectButton from '../components/ProjectButton';
 import ProjectDetail from '../components/ProjectDetail';
@@ -17,11 +17,6 @@ const Portfolio = () => {
     const targetProj = projects[index]
     setSelectedProject(targetProj)
   }
-
-  useEffect(() => {
-    console.log(`updating...`);
-  }, [selectedProject])
-
 
   return (
     <div>
