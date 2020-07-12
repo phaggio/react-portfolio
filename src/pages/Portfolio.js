@@ -11,11 +11,10 @@ const maxHeight = {
 }
 
 const Portfolio = () => {
-  const [projectList, setProjectList] = useState(projects);
-  const [selectedProject, setSelectedProject] = useState(projects[1]);
+  const [selectedProject, setSelectedProject] = useState(projects[0]);
 
   const projectButtonPress = index => {
-    const targetProj = projectList[index]
+    const targetProj = projects[index]
     setSelectedProject(targetProj)
   }
 
@@ -66,8 +65,13 @@ const Portfolio = () => {
 
 
       </Container>
-      <button className="btn btn-warning" onClick={() => console.log(projectList)}>print projectList</button>
-      <button className="btn btn-warning" onClick={() => console.log(selectedProject)}>print selectedProject</button>
+
+
+      {/* console log tools */}
+      <div>
+        <button className="btn btn-warning m-1" onClick={() => console.log(projects)}>print projects</button>
+        <button className="btn btn-warning m-1" onClick={() => console.log(selectedProject)}>print selectedProject</button>
+      </div>
     </div>
   )
 }
