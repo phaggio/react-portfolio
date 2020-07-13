@@ -6,7 +6,28 @@
         "link": "https://phaggio.github.io/weather-dashboard/",
         "github": "https://github.com/phaggio/weather-dashboard",
         "imgURL": "/assets/images/projects/weather-dashboard.png",
-        "technologies": ["JavaScript", "jQuery", "Moment.js", "Bootstrap", "Google Font"]
+        "technologies": [
+            {
+                "name": "JavaScript",
+                "icon": "fab fa-js-square"
+            },
+            {
+                "name": "jQuery",
+                "icon": "far fa-file-code"
+            },
+            {
+                "name": "Moment.js",
+                "icon": "fas fa-tools"
+            },
+            {
+                "name": "Bootstrap",
+                "icon": "fab fa-bootstrap"
+            },
+            {
+                "name": "Google Font",
+                "icon": "fab fa-google"
+            }
+        ]
     },
     {
         "name": "Code Quiz",
@@ -15,7 +36,28 @@
         "link": "https://phaggio.github.io/code-quiz/",
         "github": "https://github.com/phaggio/code-quiz",
         "imgURL": "/assets/images/projects/code-quiz.png",
-        "technologies": ["JavaScript", "Bootstrap", "LocalStorage", "HTML", "CSS"]
+        "technologies": [
+            {
+                "name": "JavaScript",
+                "icon": "fab fa-js-square"
+            },
+            {
+                "name": "Bootstrap",
+                "icon": "fab fa-bootstrap"
+            },
+            {
+                "name": "LocalStorage",
+                "icon": "fas fa-database"
+            },
+            {
+                "name": "HTML5",
+                "icon": "fab fa-html5"
+            },
+            {
+                "name": "CSS",
+                "icon": "fab fa-css3-alt"
+            }
+        ]
     },
     {
         "name": "Project Tracker",
@@ -24,7 +66,32 @@
         "link": "https://the-best-project-manager.herokuapp.com/",
         "github": "https://github.com/maximilianc88/Project-Planner-Application",
         "imgURL": "/assets/images/projects/project-tracker.png",
-        "technologies": ["JavaScript", "jQuery", "mySQL", "Express.js", "Sequelize", "Font Awesome"]
+        "technologies": [
+            {
+                "name": "JavaScript",
+                "icon": "fab fa-js-square"
+            },
+            {
+                "name": "jQuery",
+                "icon": "far fa-file-code"
+            },
+            {
+                "name": "MySQL",
+                "icon": "fas fa-database"
+            },
+            {
+                "name": "Express.js",
+                "icon": "fas fa-tools"
+            },
+            {
+                "name": "Sequelize",
+                "icon": "fas fa-tools"
+            },
+            {
+                "name": "Font Awesome",
+                "icon": "fab fa-font-awesome"
+            }
+        ]
     },
     {
         "name": "Burger app",
@@ -33,7 +100,28 @@
         "link": "https://phaggio-burger.herokuapp.com/",
         "github": "https://github.com/phaggio/burger",
         "imgURL": "/assets/images/projects/burger-app.png",
-        "technologies": ["JavaScript", "Express.js", "MySQL", "jQuery", "Bootstrap"]
+        "technologies": [
+            {
+                "name": "JavaScript",
+                "icon": "fab fa-js-square"
+            },
+            {
+                "name": "Express.js",
+                "icon": "fas fa-tools"
+            },
+            {
+                "name": "MySQL",
+                "icon": "fas fa-database"
+            },
+            {
+                "name": "jQuery",
+                "icon": "far fa-file-code"
+            },
+            {
+                "name": "Bootstrap",
+                "icon": "fab fa-bootstrap"
+            }
+        ]
     },
     {
         "name": "Employee Tracker",
@@ -41,7 +129,24 @@
         "description": "This is a sample CLI application that user can add/edit/remove employees, roles, and teams from a database within the organization.",
         "github": "https://github.com/phaggio/employee-tracker",
         "imgURL": "/assets/images/projects/employee-tracker.png",
-        "technologies": ["JavaScript", "console.table", "inquirer", "MySQL"]
+        "technologies": [
+            {
+                "name": "JavaScript",
+                "icon": "fab fa-js-square"
+            },
+            {
+                "name": "console.table",
+                "icon": "fas fa-tools"
+            },
+            {
+                "name": "inquirer",
+                "icon": "fas fa-tools"
+            },
+            {
+                "name": "MySQL",
+                "icon": "fas fa-database"
+            }
+        ]
     },
     {
         "name": "Order Up",
@@ -50,6 +155,23 @@
         "link": "https://order-up-jkrtr.herokuapp.com/",
         "github": "https://github.com/phaggio/order-up",
         "imgURL": "/assets/images/projects/order-up.png",
-        "technologies": ["JavaScript", "console.table", "inquirer", "MySQL"]
+        "technologies": [
+            {
+                "name": "JavaScript",
+                "icon": "fab fa-js-square"
+            },
+            {
+                "name": "console.table",
+                "icon": "fas fa-tools"
+            },
+            {
+                "name": "inquirer",
+                "icon": "fas fa-tools"
+            },
+            {
+                "name": "MySQL",
+                "icon": "fas fa-database"
+            }
+        ]
     }
 ]

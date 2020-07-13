@@ -70,7 +70,10 @@ const ProjectDetail = props => {
             <ul className="list-group list-group-flush">
               {props.project.technologies ?
                 props.project.technologies.map(tech =>
-                  <li className="list-group-item bg-light" key={tech}>{tech}</li>
+                  <li className="list-group-item bg-light" key={tech.name}>
+                    <i className={`${tech.icon} mr-2`}/>
+                    {tech.name}
+                  </li>
                 ) : ``
               }
             </ul>
