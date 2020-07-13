@@ -5,27 +5,78 @@
     "background2": "I wouldn’t say that my professional experience is unrelated to my education, in fact, far from it. From the study of economics, I’ve learned the concept of resource allocation and economy of scale, which helped me greatly in formulating new pricing strategy in e-commerce. From the study of finance, I’ve learned return and risk management, which helped me planned new product go-to-market strategy and product feature prioritization.",
     "goingForward": "I believe in continuous learning and taking on new challenges as opportunities to grow. I am interested in web development and, recently, I’ve completed a full-stack web development from University of Washington Professional and Continuing Education. It was a blast! The concepts are fascinating, the challenges are fun, and the practices are fulfilling. I look forward to transitioning to a more technical field as a web developer or technical PM in my future endeavors.",
     "languages": [
-      "JavaScript",
-      "SQL",
-      "HTML5",
-      "CSS",
-      "Python"
+      {
+        "name": "JavaScript",
+        "icon": "fab fa-js-square"
+      },
+      {
+        "name": "SQL",
+        "icon": "fas fa-database"
+      },
+      {
+        "name": "HTML5",
+        "icon": "fab fa-html5"
+      },
+      {
+        "name": "CSS",
+        "icon": "fab fa-css3-alt"
+      },
+      {
+        "name": "Python",
+        "icon": "fab fa-python"
+      }
     ],
     "tools": [
-      "GitHub",
-      "Node.js",
-      "NPM",
-      "MySQL",
-      "MongoDB",
-      "VS Code"
+      {
+        "name": "GitHub",
+        "icon": "fab fa-github"
+      },
+      {
+        "name": "Node.js",
+        "icon": "fab fa-node-js"
+      },
+      {
+        "name": "NPM",
+        "icon": "fab fa-npm"
+      },
+      {
+        "name": "MySQL",
+        "icon": "fas fa-database"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "fas fa-database"
+      },
+      {
+        "name": "VS Code",
+        "icon": "fas fa-tools"
+      }
     ],
     "libraries": [
-      "React",
-      "Express.js",
-      "Bootstrap",
-      "jQuery",
-      "Mongoose",
-      "Sequelize"
+      {
+        "name": "React",
+        "icon": "fab fa-react"
+      },
+      {
+        "name": "Express.js",
+        "icon": "fas fa-tools"
+      },
+      {
+        "name": "Bootstrap",
+        "icon": "fab fa-bootstrap"
+      },
+      {
+        "name": "jQuery",
+        "icon": "far fa-file-code"
+      },
+      {
+        "name": "Mongoose",
+        "icon": "fas fa-tools"
+      },
+      {
+        "name": "Sequelize",
+        "icon": "fas fa-tools"
+      }
     ]
   }
 ]

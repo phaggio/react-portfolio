@@ -60,7 +60,10 @@ const Home = () => {
 							<h4 className="text-center text-md-left w-100">Languages</h4>
 							<ul className="list-group list-group-flush w-100">
 								{content.languages.map(lang =>
-									<li className="list-group-item text-center text-md-left" key={lang}>{lang}</li>
+									<li className="list-group-item text-center text-md-left" key={lang.name}>
+										<i className={`${lang.icon} mr-2`} />
+										{lang.name}
+									</li>
 								)}
 							</ul>
 							<hr />
@@ -71,7 +74,10 @@ const Home = () => {
 							<h4 className="text-center text-md-left w-100">Tools</h4>
 							<ul className="list-group list-group-flush w-100">
 								{content.tools.map(tool =>
-									<li className="list-group-item text-center text-md-left" key={tool}>{tool}</li>
+									<li className="list-group-item text-center text-md-left" key={tool.name}>
+										<i className={`${tool.icon} mr-2`} />
+										{tool.name}
+									</li>
 								)}
 							</ul>
 							<hr />
@@ -82,7 +88,10 @@ const Home = () => {
 							<h4 className="text-center text-md-left w-100">Framework/Libraries</h4>
 							<ul className="list-group list-group-flush w-100">
 								{content.libraries.map(lib =>
-									<li className="list-group-item text-center text-md-left" key={lib}>{lib}</li>
+									<li className="list-group-item text-center text-md-left" key={lib.name}>
+										<i className={`${lib.icon} mr-2`} />
+										{lib.name}
+									</li>
 								)}
 							</ul>
 							<hr />
