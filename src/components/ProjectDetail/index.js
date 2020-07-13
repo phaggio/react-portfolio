@@ -16,7 +16,7 @@ const ProjectDetail = props => {
         <Row>
           <Col size="12">
             <div className="display-4 text-center">{props.project.name}</div>
-            <small className="">{props.project.subtitle}</small>
+            {/* <small className="">{props.project.subtitle}</small> */}
 
             <hr />
             <p className="mt-2">{props.project.description}</p>
@@ -35,10 +35,29 @@ const ProjectDetail = props => {
         <Row>
           <Col size="12 sm-6">
             <div className="d-flex flex-column align-items-center">
-              <a className="my-1 btn btn-primary w-75" rel="noopener noreferrer"
-                href={props.project.link} target="_blank">Application</a>
-              <a className="my-1 btn btn-info w-75" rel="noopener noreferrer"
-                href={props.project.github} target="_blank">GitHub Page</a>
+              {
+                props.project.link ?
+                  <a className="my-1 btn btn-primary w-75"
+                    rel="noopener noreferrer"
+                    href={props.project.link} target="_blank">
+                    <div className="d-flex justify-content-center align-items-center">
+                      <i className="fas fa-window-maximize"></i>
+                      <p className="p-0 my-0 ml-2">Application</p>
+                    </div>
+                  </a>
+                  :
+                  ``
+              }
+
+              <a className="my-1 btn btn-info w-75"
+                rel="noopener noreferrer"
+                href={props.project.github} target="_blank">
+                <div className="d-flex justify-content-center align-items-center">
+                  <i className="fab fa-github-square"></i>
+                  <p className="p-0 my-0 ml-2">GitHub Page</p>
+                </div>
+              </a>
+
             </div>
 
             <hr className="d-block d-sm-none" />

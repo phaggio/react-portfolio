@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Col, Container, Row } from '../components/Grid';
-import ProjectButton from '../components/ProjectButton';
+import ProjectItem from '../components/ProjectItem';
 import ProjectDetail from '../components/ProjectDetail';
 import projects from '../json/projects.json';
 
@@ -30,7 +30,7 @@ const Portfolio = () => {
 
             <div className="d-flex flex-sm-row flex-md-row flex-lg-column align-items-center" style={maxHeight}>
               {projects.map((project, index) =>
-                <ProjectButton
+                <ProjectItem
                   key={project.name}
                   index={index}
                   name={project.name}

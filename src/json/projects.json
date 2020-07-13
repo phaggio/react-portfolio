@@ -39,7 +39,6 @@
         "name": "Employee Tracker",
         "subtitle": "A CLI application where user can communicate with local mysql database.",
         "description": "This is a sample CLI application that user can add/edit/remove employees, roles, and teams from a database within the organization.",
-        "link": "https://github.com/phaggio/employee-tracker",
         "github": "https://github.com/phaggio/employee-tracker",
         "imgURL": "/assets/images/projects/employee-tracker.png",
         "technologies": ["JavaScript", "console.table", "inquirer", "MySQL"]
