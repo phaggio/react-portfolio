@@ -17,7 +17,7 @@
             },
             {
                 "name": "Moment.js",
-                "icon": "fas fa-tools"
+                "icon": "far fa-file-code"
             },
             {
                 "name": "Bootstrap",
@@ -81,11 +81,11 @@
             },
             {
                 "name": "Express.js",
-                "icon": "fas fa-tools"
+                "icon": "far fa-file-code"
             },
             {
                 "name": "Sequelize",
-                "icon": "fas fa-tools"
+                "icon": "far fa-file-code"
             },
             {
                 "name": "Font Awesome",
@@ -107,7 +107,7 @@
             },
             {
                 "name": "Express.js",
-                "icon": "fas fa-tools"
+                "icon": "far fa-file-code"
             },
             {
                 "name": "MySQL",
@@ -136,11 +136,11 @@
             },
             {
                 "name": "console.table",
-                "icon": "fas fa-tools"
+                "icon": "far fa-file-code"
             },
             {
-                "name": "inquirer",
-                "icon": "fas fa-tools"
+                "name": "inquirer.js",
+                "icon": "far fa-file-code"
             },
             {
                 "name": "MySQL",
@@ -157,20 +157,28 @@
         "imgURL": "/assets/images/projects/order-up.png",
         "technologies": [
             {
+                "name": "React",
+                "icon": "fab fa-react"
+            },
+            {
+                "name": "Express.js",
+                "icon": "far fa-file-code"
+            },
+            {
+                "name": "MongoDB",
+                "icon": "fas fa-database"
+            },
+            {
+                "name": "Node.js",
+                "icon": "fab fa-node-js"
+            },
+            {
                 "name": "JavaScript",
                 "icon": "fab fa-js-square"
             },
             {
-                "name": "console.table",
-                "icon": "fas fa-tools"
-            },
-            {
-                "name": "inquirer",
-                "icon": "fas fa-tools"
-            },
-            {
-                "name": "MySQL",
-                "icon": "fas fa-database"
+                "name": "Bootstrap",
+                "icon": "fab fa-bootstrap"
             }
         ]
     }

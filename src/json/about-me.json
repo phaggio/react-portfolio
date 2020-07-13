@@ -59,7 +59,7 @@
       },
       {
         "name": "Express.js",
-        "icon": "fas fa-tools"
+        "icon": "far fa-file-code"
       },
       {
         "name": "Bootstrap",
@@ -71,11 +71,11 @@
       },
       {
         "name": "Mongoose",
-        "icon": "fas fa-tools"
+        "icon": "far fa-file-code"
       },
       {
         "name": "Sequelize",
-        "icon": "fas fa-tools"
+        "icon": "far fa-file-code"
       }
     ]
   }
