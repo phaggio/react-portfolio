@@ -12,7 +12,7 @@ const Home = () => {
 	const content = aboutMe ? aboutMe[0] : {};
 	return (
 		<div>
-			<Container>
+			<Container other="pt-4">
 				<Row>
 					<Col size="12 md-6 lg-6" other="d-flex justify-content-center">
 						<div>
@@ -40,12 +40,57 @@ const Home = () => {
 						</div>
 					</Col>
 
+					<Col size="12">
+						<div>
+							<h2 className="text-center">Going Forward</h2>
+							<p>{content.goingForward}</p>
+							<hr />
+						</div>
+					</Col>
 
+					<Col size="12">
+						<div>
+							<h2 className="text-center">Skills</h2>
+							<br />
+						</div>
+					</Col>
 
+					<Col size="12 md-4">
+						<div className="d-flex flex-column align-items-center">
+							<h4 className="text-center text-md-left">Languages</h4>
+							<ul className="list-group list-group-flush w-100">
+								{content.languages.map(lang =>
+									<li className="list-group-item text-center text-md-left" key={lang}>{lang}</li>
+								)}
+							</ul>
+							<hr />
+						</div>
+					</Col>
+					<Col size="12 md-4">
+						<div>
+							<h4 className="text-center text-md-left">Tools</h4>
+							<ul className="list-group list-group-flush w-100">
+								{content.tools.map(tool =>
+									<li className="list-group-item text-center text-md-left" key={tool}>{tool}</li>
+								)}
+							</ul>
+							<hr />
+						</div>
+					</Col>
+					<Col size="12 md-4">
+						<div>
+							<h4 className="text-center text-md-left">Framework/Libraries</h4>
+							<ul className="list-group list-group-flush w-100">
+								{content.libraries.map(lib =>
+									<li className="list-group-item text-center text-md-left" key={lib}>{lib}</li>
+								)}
+							</ul>
+							<hr />
+						</div>
+					</Col>
 
 				</Row>
 			</Container>
-
 		</div>
 	)
 }
