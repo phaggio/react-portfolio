@@ -25,7 +25,7 @@ const ProjectDetail = props => {
             <label>Screenshot</label>
             <div className="w-100 d-flex justify-content-center">
               {/* <img className="" src="https://via.placeholder.com/450x150" /> */}
-              <img style={imgSize} alt={`${props.project.name} screenshot`} src={githubDir + props.project.imgURL} />
+              <img style={imgSize} alt={`${props.project.name} screenshot`} src={`${githubDir}${props.project.imgURL}`} />
             </div>
 
             <hr />
@@ -49,9 +49,11 @@ const ProjectDetail = props => {
           <Col size="12 sm-6">
             <h5 className="text-center">Technologies</h5>
             <ul className="list-group list-group-flush">
-              {props.project.technologies ? props.project.technologies.map(tech =>
-                <li className="list-group-item bg-light" key={tech}>{tech}</li>
-              ) : ``}
+              {props.project.technologies ?
+                props.project.technologies.map(tech =>
+                  <li className="list-group-item bg-light" key={tech}>{tech}</li>
+                ) : ``
+              }
             </ul>
           </Col>
         </Row>
@@ -65,12 +67,7 @@ const ProjectDetail = props => {
 
 
 ProjectDetail.propTypes = {
-  name: PropTypes.string,
-  subtitle: PropTypes.string,
-  description: PropTypes.string,
-  link: PropTypes.string,
-  github: PropTypes.string,
-  imgURL: PropTypes.string,
+  project: PropTypes.object,
   children: PropTypes.node
 }
 

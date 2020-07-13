@@ -1,7 +1,7 @@
 [
     {
         "name": "Weather Dashboard",
-        "subtitle": "A single-page application that shows weather condition.",
+        "subtitle": "A JavaScript built single-page app that makes public API requests.",
         "description": "This is a single page web, where user can look up weather for a city or user's current location. It shows current weather conditipon, 3-hour interval forecast for the next 3 days or 5 days",
         "link": "https://phaggio.github.io/weather-dashboard/",
         "github": "https://github.com/phaggio/weather-dashboard",
@@ -10,16 +10,16 @@
     },
     {
         "name": "Code Quiz",
-        "subtitle": "A single-page application that tests user's programming knowledge.",
+        "subtitle": "A JavaScript built single-page app using LocalStorage.",
         "description": "This repository creates a timed muitiple-choice question quiz that tests user's Javascript knowledge. There are 10 multiple choice questions and user is given 200 seconds to answer them.",
         "link": "https://phaggio.github.io/code-quiz/",
         "github": "https://github.com/phaggio/code-quiz",
         "imgURL": "/assets/images/projects/code-quiz.png",
-        "technologies": ["JavaScript", "Bootstrap", "HTML", "CSS"]
+        "technologies": ["JavaScript", "Bootstrap", "LocalStorage", "HTML", "CSS"]
     },
     {
         "name": "Project Tracker",
-        "subtitle": "A full-stack application for tracking project development.",
+        "subtitle": "A full-stack app employs Node.js, NoSQL, Express.js, Handlebars.",
         "description": "This is a web application where teams can track their project development progress, issues, etc.",
         "link": "https://the-best-project-manager.herokuapp.com/",
         "github": "https://github.com/maximilianc88/Project-Planner-Application",
