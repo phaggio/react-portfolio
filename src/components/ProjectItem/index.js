@@ -12,7 +12,7 @@ const ProjectItem = props => {
     <button type="button" className="m-1 btn btn-dark btn-block" onClick={() => props.pressed(props.index)}>
       <div className="d-flex flex-column align-items-center">
 
-        <h6 className="d-flex justify-content-center align-items-center" style={size}>
+        <h6 className="m-0 p-1" style={size}>
           {props.name}
         </h6>
 
