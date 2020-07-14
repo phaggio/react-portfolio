@@ -35,6 +35,33 @@
         ]
     },
     {
+        "name": "Portfolio",
+        "subtitle": "A three page web app built using JavaScript and React.js",
+        "description": "This is web app about myself, personal projects in portfolio, and a link to my resume. In the 'about me' page, you'll find a little bit information about my background and skillset. In the 'portfolio' page, you'll see the list of projects I've worked on and the tech stack I used. Lastly, in the 'resume' page, you can see my developer resume. ",
+        "note": "Try resizing the browser or view it on mobile device. The UI layout will adapt to the size of display for your convenience.",
+        "link": "https://phaggio.github.io/react-portfolio/",
+        "github": "https://github.com/phaggio/react-portfolio",
+        "imgURL": "/assets/images/projects/react-portfolio.png",
+        "technologies": [
+            {
+                "name": "JavaScript",
+                "icon": "fab fa-js-square"
+            },
+            {
+                "name": "React",
+                "icon": "fab fa-react"
+            },
+            {
+                "name": "Bootstrap",
+                "icon": "fab fa-bootstrap"
+            },
+            {
+                "name": "Font Awesome",
+                "icon": "fab fa-font-awesome"
+            }
+        ]
+    },
+    {
         "name": "Weather Dashboard",
         "subtitle": "A JavaScript built single-page app that makes public API requests.",
         "description": "This is a single page web, where user can look up weather for a city or user's current location. It shows current weather conditipon, 3-hour interval forecast for the next 3 days or 5 days",
