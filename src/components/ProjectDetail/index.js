@@ -20,9 +20,14 @@ const ProjectDetail = props => {
 
             <hr />
             <p className="mt-2">{props.project.description}</p>
+            {props.project.note ?
+              <p className="mt-2">{props.project.note}</p>
+              :
+              ``
+            }
 
             <hr />
-            <label>Screenshot</label>
+            <small>Screenshot</small>
             <div className="w-100 d-flex justify-content-center">
               {/* <img className="" src="https://via.placeholder.com/450x150" /> */}
               <img style={imgSize} alt={`${props.project.name} screenshot`} src={`${githubDir}${props.project.imgURL}`} />
@@ -71,7 +76,7 @@ const ProjectDetail = props => {
               {props.project.technologies ?
                 props.project.technologies.map(tech =>
                   <li className="list-group-item bg-light" key={tech.name}>
-                    <i className={`${tech.icon} mr-2`}/>
+                    <i className={`${tech.icon} mr-2`} />
                     {tech.name}
                   </li>
                 ) : ``

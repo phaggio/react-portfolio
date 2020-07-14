@@ -1,5 +1,40 @@
 [
     {
+        "name": "Simple Weather",
+        "subtitle": "A installable progressive web app built using React.js.",
+        "description": "This is a single page app, where user can check weather condition of a city or current location. This is a progressive web app, where user can install this app on to their mobile or desktop devices. The app also offers unit type preference and dark mode in the settings.",
+        "note": "Click on the plus ('+') button in browser search bar to install the app.",
+        "link": "https://phaggio.github.io/simple-weather/",
+        "github": "https://github.com/phaggio/simple-weather",
+        "imgURL": "/assets/images/projects/simple-weather.png",
+        "technologies": [
+            {
+                "name": "JavaScript",
+                "icon": "fab fa-js-square"
+            },
+            {
+                "name": "React",
+                "icon": "fab fa-react"
+            },
+            {
+                "name": "Moment.js",
+                "icon": "far fa-file-code"
+            },
+            {
+                "name": "Bootstrap",
+                "icon": "fab fa-bootstrap"
+            },
+            {
+                "name": "LocalStorage",
+                "icon": "fas fa-database"
+            },
+            {
+                "name": "Google Font",
+                "icon": "fab fa-google"
+            }
+        ]
+    },
+    {
         "name": "Weather Dashboard",
         "subtitle": "A JavaScript built single-page app that makes public API requests.",
         "description": "This is a single page web, where user can look up weather for a city or user's current location. It shows current weather conditipon, 3-hour interval forecast for the next 3 days or 5 days",
