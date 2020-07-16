@@ -3,7 +3,7 @@
         "name": "Simple Weather",
         "subtitle": "A installable progressive web app built using React.js.",
         "description": "This is a single page app, where user can check weather condition of a city or current location. This is a progressive web app, where user can install this app on to their mobile or desktop devices. The app also offers unit type preference and dark mode in the settings.",
-        "note": "Click on the plus ('+') button in browser search bar to install the app.",
+        "note": "Click on the plus ('+') button in browser search bar to install the app. If you're using it on mobile device, make sure you allow your browser to use your current geo-location.",
         "link": "https://phaggio.github.io/simple-weather/",
         "github": "https://github.com/phaggio/simple-weather",
         "imgURL": "/assets/images/projects/simple-weather.png",
