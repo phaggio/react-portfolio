@@ -5,8 +5,6 @@ const json = footerJSON ? footerJSON[0] : {};
 
 const Footer = () => {
 
-  // const themeContext = useContext(ThemeContext);
-
   return (
     <nav className="navbar fixed-bottom navbar-dark bg-dark justify-content-between">
       <small className="text-light">react portfolio by phaggio | wang.richardc@outlook.com</small>

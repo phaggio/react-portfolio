@@ -21,7 +21,7 @@ const Portfolio = () => {
   return (
     <div>
 
-      <Container other="mt-1">
+      <Container other="mt-1 p-4">
         <Row>
           <Col size="sm-12 md-12 lg-4 xl-3" py="2" my="2">
             <div className="d-flex justify-content-center justify-content-lg-start">

@@ -10,7 +10,7 @@ const style = {
 const Resume = () => {
 
   return (
-    <div className="mt-2">
+    <div className="mt-2 p-4">
       <Container other="vh-75">
         <div className="embed-responsive embed-responsive-4by3 z-depth-1-half" style={style}>
           <iframe

@@ -12,7 +12,7 @@ const Home = () => {
 	const content = aboutMe ? aboutMe[0] : {};
 	return (
 		<div>
-			<Container other="pt-4">
+			<Container other="p-4">
 				<Row>
 					<Col size="12 md-6 lg-6" other="d-flex justify-content-center">
 						<div>
