@@ -6,6 +6,7 @@ This is my portfolio page, where you can find out a bit information about me, th
 ## Screenshot
 ![image](https://raw.githubusercontent.com/phaggio/react-portfolio/master/screenshot/react-portfolio-screenshot.png)
 
+![image](https://raw.githubusercontent.com/phaggio/react-portfolio/master/screenshot/react-portfolio-screenshot3.png)
 
 ## Technologies/Framework
 * JavaScript
@@ -14,6 +15,8 @@ This is my portfolio page, where you can find out a bit information about me, th
 * Font Awesome toolkit
 
 
-## Features
-* Mobile friendly and responsive UI layout
-* data (about me, project, resume link) are stored in JSON for easy update.
+## Feature
+* Mobile friendly and responsive UI layout. On Portfolio page, the position of the list of projects shifts from a column on the left hand side to a row on the top as the viewport size changes (to mobile view size)
+![image](https://raw.githubusercontent.com/phaggio/react-portfolio/master/screenshot/react-portfolio-screenshot2.png)
+
+![image](https://raw.githubusercontent.com/phaggio/react-portfolio/master/screenshot/react-portfolio-screenshot4.png)
