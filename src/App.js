@@ -8,7 +8,7 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
 function App() {
-  console.log(`${process.env.PUBLIC_URL}`)
+  // console.log(`${process.env.PUBLIC_URL}`)
   return (
     <Router>
         <Navbar />
