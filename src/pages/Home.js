@@ -65,7 +65,7 @@ const Home = () => {
 				</div>
 
 				<div className="col-12 col-md-4">
-					<div className="d-flex flex-column align-items-center mt-2">
+					<div className="d-flex flex-column align-items-center mt-2 mb-4 pb-4">
 						<h4 className="text-center text-md-left w-100">Framework/Libraries</h4>
 						<ul className="list-group list-group-flush w-100">
 							{content.libraries.map(lib =>
