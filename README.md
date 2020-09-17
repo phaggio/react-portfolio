@@ -4,8 +4,10 @@ This is my portfolio page, where you can find out a bit information about me, th
 
 
 ## Screenshot
+<div>
 <img src="https://raw.githubusercontent.com/phaggio/react-portfolio/master/screenshot/react-portfolio-screenshot.png" width="360">
 <img src="https://raw.githubusercontent.com/phaggio/react-portfolio/master/screenshot/react-portfolio-screenshot3.png" width="162">
+</div>
 
 ## Technologies/Framework
 * JavaScript
