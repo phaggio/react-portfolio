@@ -1,13 +1,17 @@
 [
   {
     "aboutMe": "An experienced Program Manager, seasoned Analyst, and entry Web Developer.",
-    "background1": "I have a diverse background in education and professional experience. I have a bachelor's in Economics, a master's in Finance, and a certificate in full stack web development. I’ve taken on analytical roles, project and product management, and web project development.",
-    "background2": "",
+    "background1": "I have a diverse background. I have a bachelor's in Economics, a master's in Finance, and a certificate in full stack web development.",
+    "background2": "I'm interested in creating useful software products and improving user experiences. When I'm not in front of my computer, I enjoy watching movies, hiking, and fishing! :)",
     "goingForward": "I believe in continuous learning and taking on new challenges and opportunities to grow. I am interested in software development and I look forward to advance my career to a more technical field.",
     "languages": [
       {
         "name": "JavaScript",
         "icon": "fab fa-js-square"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "far fa-file-code"
       },
       {
         "name": "SQL",
@@ -75,6 +79,10 @@
       },
       {
         "name": "Sequelize",
+        "icon": "far fa-file-code"
+      },
+      {
+        "name": "Axios",
         "icon": "far fa-file-code"
       }
     ]

@@ -7,7 +7,9 @@ const Footer = () => {
 
   return (
     <nav className="navbar fixed-bottom navbar-dark bg-dark justify-content-between">
-      <small className="text-light">react portfolio by phaggio | wang.richardc@outlook.com</small>
+      <small className="text-light text-center">
+        react portfolio by phaggio | wang.richardc@outlook.com | (425) 616-5550 | www.github.com/phaggio
+      </small>
 
       <div className="d-flex">
 
