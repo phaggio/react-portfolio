@@ -4,9 +4,9 @@ This is my portfolio page, where you can find out a bit information about me, th
 
 
 ## Screenshot
-![image](https://raw.githubusercontent.com/phaggio/react-portfolio/master/screenshot/react-portfolio-screenshot.png)
+<img src="https://raw.githubusercontent.com/phaggio/react-portfolio/master/screenshot/react-portfolio-screenshot.png" width="360">
 
-![image](https://raw.githubusercontent.com/phaggio/react-portfolio/master/screenshot/react-portfolio-screenshot3.png)
+<img src="https://raw.githubusercontent.com/phaggio/react-portfolio/master/screenshot/react-portfolio-screenshot3.png" width="162">
 
 ## Technologies/Framework
 * JavaScript
@@ -17,6 +17,7 @@ This is my portfolio page, where you can find out a bit information about me, th
 
 ## Feature
 * Mobile friendly and responsive UI layout. On Portfolio page, the position of the list of projects shifts from a column on the left hand side to a row on the top as the viewport size changes (to mobile view size)
-![image](https://raw.githubusercontent.com/phaggio/react-portfolio/master/screenshot/react-portfolio-screenshot2.png)
 
-![image](https://raw.githubusercontent.com/phaggio/react-portfolio/master/screenshot/react-portfolio-screenshot4.png)
+<img src="https://raw.githubusercontent.com/phaggio/react-portfolio/master/screenshot/react-portfolio-screenshot2.png" width="380">
+
+<img src="https://raw.githubusercontent.com/phaggio/react-portfolio/master/screenshot/react-portfolio-screenshot4.png" width="138">
