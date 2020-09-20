@@ -58,7 +58,6 @@ const Portfolio = () => {
         </div>
 
 
-
         <div className="col-12 col-lg-9 col-xl-9">
           <div className="mt-4">
             <ProjectDetail project={selectedProject} />

@@ -12,7 +12,7 @@ const ProjectDetail = props => {
 
   return (
     <div>
-      <div className="row">
+      <div className="row pb-5">
 
         {/* title and description */}
         <div className="col-12">
@@ -34,7 +34,6 @@ const ProjectDetail = props => {
             <label className="font-weight-light">Screenshot</label>
             <img style={imgSize} alt={`${props.project.name} screenshot`}
               src={`${githubDir}${props.project.imgURL}`} />
-            <hr className="d-block d-sm-none" />
           </div>
         </div>
 
@@ -72,7 +71,6 @@ const ProjectDetail = props => {
 
             </div>
           </div>
-          <hr className="d-block d-sm-none" />
 
 
           {/* tech stack  */}

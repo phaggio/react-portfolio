@@ -12,7 +12,7 @@ const Home = () => {
 	const content = aboutMe ? aboutMe[0] : {};
 	return (
 		<div className="container pb-5">
-			<div className="row pb-3">
+			<div className="row pb-5">
 
 
 				<div className="col-12 col-md-6">
@@ -66,7 +66,7 @@ const Home = () => {
 				</div>
 
 				<div className="col-12 col-md-4">
-					<div className="d-flex flex-column align-items-center p-2 shadow rounded">
+					<div className="d-flex flex-column align-items-center p-2 shadow rounded ">
 
 						<label className="text-center text-md-left font-weight-light">Framework/Libraries</label>
 						<ul className="list-group list-group-flush w-100">

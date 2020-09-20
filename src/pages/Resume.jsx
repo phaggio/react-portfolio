@@ -8,8 +8,8 @@ const style = {
 const Resume = () => {
 
   return (
-    <div className="mt-2 p-4 mb-5">
-      <div className="container vh-75">
+    <div className="container vh-75">
+      <div className="row mt-2 pb-5" >
         <div className="embed-responsive embed-responsive-4by3 z-depth-1-half" style={style}>
           <iframe
             className="embed-responsive-item"
@@ -18,7 +18,7 @@ const Resume = () => {
           />
         </div>
 
-        <a className="btn btn-primary mt-1" href={resume[0].download}>Download</a>
+        <div className="btn btn-primary bt-sm mt-1 mb-5" href={resume[0].download}>Download</div>
 
       </div>
     </div>
