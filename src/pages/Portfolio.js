@@ -18,7 +18,7 @@ const Portfolio = () => {
   }
 
   return (
-    <div className="container">
+    <div className="container pb-5">
       <div className="row">
 
         <div className="col-12 d-lg-none">
@@ -38,10 +38,9 @@ const Portfolio = () => {
             </div>
           </div>
 
-
         </div>
 
-        <div className="d-none d-lg-block col-lg-4 col-xl-3">
+        <div className="d-none d-lg-block col-lg-3 col-xl-3">
           <div className="d-flex flex-column mt-4">
             <label className="text-dark font-weight-light">Projects:</label>
             <div className="d-flex flex-column align-items-center" style={maxHeight}>
@@ -60,7 +59,7 @@ const Portfolio = () => {
 
 
 
-        <div className="col-12 col-lg-8 col-xl-9">
+        <div className="col-12 col-lg-9 col-xl-9">
           <div className="mt-4">
             <ProjectDetail project={selectedProject} />
           </div>

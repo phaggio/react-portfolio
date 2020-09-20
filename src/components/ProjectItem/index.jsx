@@ -2,12 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const size = {
-  minWidth: '120px'
+  minWidth: '120px',
+  backgroundColor: '#5fc9f8',
+  color: 'white'
 }
 
 const ProjectItem = props => {
   return (
-    <div className="d-flex flex-column align-items-center justify-content-center mx-1 mx-lg-0 my-lg-1 btn btn-dark btn-sm"
+    <div className="d-flex flex-column justify-content-center mx-1 mx-lg-0 my-lg-1 btn btn-sm"
       style={size}
       onClick={() => props.pressed(props.index)}>
 

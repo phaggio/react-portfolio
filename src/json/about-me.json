@@ -1,88 +1,105 @@
 [
   {
     "aboutMe": "An experienced Program Manager, seasoned Analyst, and entry Web Developer.",
-    "background1": "I have a diverse background. I have a bachelor's in Economics, a master's in Finance, and a certificate in full stack web development.",
-    "background2": "I'm interested in creating useful software products and improving user experiences. When I'm not in front of my computer, I enjoy watching movies, hiking, and fishing! :)",
-    "goingForward": "I believe in continuous learning and taking on new challenges and opportunities to grow. I am interested in software development and I look forward to advance my career to a more technical field.",
+    "background1": "I like solving problems, taking on analytical challenges, and creating useful products. From intuitive UI that users can pick up instinctively, data analysis deep dive with meaningful and actionable insight, to simple and useful tools that improve productivities, I enjoy bringing value to my surroundings.",
     "languages": [
       {
         "name": "JavaScript",
+        "type": "language",
         "icon": "fab fa-js-square"
       },
       {
         "name": "TypeScript",
+        "type": "language",
         "icon": "far fa-file-code"
       },
       {
         "name": "SQL",
+        "type": "language",
         "icon": "fas fa-database"
       },
       {
         "name": "HTML5",
+        "type": "language",
         "icon": "fab fa-html5"
       },
       {
         "name": "CSS",
+        "type": "language",
         "icon": "fab fa-css3-alt"
       },
       {
         "name": "Python",
+        "type": "language",
         "icon": "fab fa-python"
       }
     ],
     "tools": [
       {
         "name": "GitHub",
+        "type": "tool",
         "icon": "fab fa-github"
       },
       {
         "name": "Node.js",
+        "type": "tool",
         "icon": "fab fa-node-js"
       },
       {
         "name": "NPM",
+        "type": "tool",
         "icon": "fab fa-npm"
       },
       {
         "name": "MySQL",
+        "type": "tool",
         "icon": "fas fa-database"
       },
       {
         "name": "MongoDB",
+        "type": "tool",
         "icon": "fas fa-database"
       },
       {
         "name": "VS Code",
+        "type": "tool",
         "icon": "fas fa-tools"
       }
     ],
     "libraries": [
       {
         "name": "React",
+        "type": "framework",
         "icon": "fab fa-react"
       },
       {
-        "name": "Express.js",
+        "name": "Express",
+        "type": "framework",
         "icon": "far fa-file-code"
       },
       {
         "name": "Bootstrap",
+        "type": "framework",
         "icon": "fab fa-bootstrap"
       },
       {
         "name": "jQuery",
+        "type": "framework",
         "icon": "far fa-file-code"
       },
       {
         "name": "Mongoose",
+        "type": "framework",
         "icon": "far fa-file-code"
       },
       {
         "name": "Sequelize",
+        "type": "framework",
         "icon": "far fa-file-code"
       },
       {
         "name": "Axios",
+        "type": "framework",
         "icon": "far fa-file-code"
       }
     ]

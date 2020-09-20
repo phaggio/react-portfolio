@@ -1,7 +1,7 @@
 [
     {
-        "name": "Project Tracker 2",
-        "subtitle": "A web application employed MERN stack (Mongoose, Express, React, Node)",
+        "name": "Project Tracker",
+        "subtitle": "A MERN stack web application to track project progress.",
         "description": "This is a full stack web application, where users can track the progress of their projects. User can create project and assign various type of work items to it. Furthermore, work items can be assigned to users in the database.",
         "note": "The application is developed using TypeScript. It is hosted on Heroku. The database is connected to cloud.mongodb.com",
         "link": "https://phaggio-project-tracker.herokuapp.com/",
@@ -10,30 +10,37 @@
         "technologies": [
             {
                 "name": "TypeScript",
+                "type": "language",
                 "icon": "fab fa-js-square"
             },
             {
                 "name": "MongoDB",
+                "type": "tool",
                 "icon": "fas fa-database"
             },
             {
                 "name": "Express.js",
+                "type": "framework",
                 "icon": "far fa-file-code"
             },
             {
                 "name": "React",
+                "type": "framework",
                 "icon": "fab fa-react"
             },
             {
                 "name": "Node.js",
+                "type": "tool",
                 "icon": "fab fa-node-js"
             },
             {
                 "name": "Bootstrap",
+                "type": "framework",
                 "icon": "fab fa-bootstrap"
             },
             {
                 "name": "Font Awesome",
+                "type": "framework",
                 "icon": "fab fa-font-awesome"
             }
         ]
@@ -49,26 +56,32 @@
         "technologies": [
             {
                 "name": "JavaScript",
+                "type": "language",
                 "icon": "fab fa-js-square"
             },
             {
                 "name": "React",
+                "type": "framework",
                 "icon": "fab fa-react"
             },
             {
                 "name": "Moment.js",
+                "type": "framework",
                 "icon": "far fa-file-code"
             },
             {
                 "name": "Bootstrap",
+                "type": "framework",
                 "icon": "fab fa-bootstrap"
             },
             {
                 "name": "LocalStorage",
+                "type": "tool",
                 "icon": "fas fa-database"
             },
             {
                 "name": "Google Font",
+                "type": "framework",
                 "icon": "fab fa-google"
             }
         ]
@@ -84,167 +97,51 @@
         "technologies": [
             {
                 "name": "JavaScript",
+                "type": "language",
                 "icon": "fab fa-js-square"
             },
             {
                 "name": "React",
+                "type": "framework",
                 "icon": "fab fa-react"
             },
             {
                 "name": "Bootstrap",
+                "type": "framework",
                 "icon": "fab fa-bootstrap"
             },
             {
                 "name": "Font Awesome",
+                "type": "framework",
                 "icon": "fab fa-font-awesome"
-            }
-        ]
-    },
-    {
-        "name": "Weather Dashboard",
-        "subtitle": "A JavaScript built single-page app that makes public API requests.",
-        "description": "This is a single page web, where user can look up weather for a city or user's current location. It shows current weather conditipon, 3-hour interval forecast for the next 3 days or 5 days. It is developed using vanilla JavaScript and Bootstrap for layout.",
-        "link": "https://phaggio.github.io/weather-dashboard/",
-        "github": "https://github.com/phaggio/weather-dashboard",
-        "imgURL": "/assets/images/projects/weather-dashboard.png",
-        "technologies": [
-            {
-                "name": "JavaScript",
-                "icon": "fab fa-js-square"
-            },
-            {
-                "name": "jQuery",
-                "icon": "far fa-file-code"
-            },
-            {
-                "name": "Moment.js",
-                "icon": "far fa-file-code"
-            },
-            {
-                "name": "Bootstrap",
-                "icon": "fab fa-bootstrap"
-            },
-            {
-                "name": "Google Font",
-                "icon": "fab fa-google"
-            }
-        ]
-    },
-    {
-        "name": "Code Quiz",
-        "subtitle": "A JavaScript built single-page app using LocalStorage.",
-        "description": "This repository creates a timed muitiple-choice question quiz that tests user's Javascript knowledge. There are 10 multiple choice questions and user is given 200 seconds to answer them.",
-        "link": "https://phaggio.github.io/code-quiz/",
-        "github": "https://github.com/phaggio/code-quiz",
-        "imgURL": "/assets/images/projects/code-quiz.png",
-        "technologies": [
-            {
-                "name": "JavaScript",
-                "icon": "fab fa-js-square"
-            },
-            {
-                "name": "Bootstrap",
-                "icon": "fab fa-bootstrap"
-            },
-            {
-                "name": "LocalStorage",
-                "icon": "fas fa-database"
-            },
-            {
-                "name": "HTML5",
-                "icon": "fab fa-html5"
-            },
-            {
-                "name": "CSS",
-                "icon": "fab fa-css3-alt"
-            }
-        ]
-    },
-    {
-        "name": "Project Tracker",
-        "subtitle": "A full-stack app employs Node.js, NoSQL, Express.js, Handlebars.",
-        "description": "This web application was a group project. It is a web application where teams can track their project development progress, issues, etc. It uses Sequelize to manage its database operations, Express.js to handle web application CRUD API, handlebars.js to manage front end UI, and Node.js to execute server side code.",
-        "link": "https://the-best-project-manager.herokuapp.com/",
-        "github": "https://github.com/maximilianc88/Project-Planner-Application",
-        "imgURL": "/assets/images/projects/project-tracker.png",
-        "technologies": [
-            {
-                "name": "JavaScript",
-                "icon": "fab fa-js-square"
-            },
-            {
-                "name": "jQuery",
-                "icon": "far fa-file-code"
-            },
-            {
-                "name": "MySQL",
-                "icon": "fas fa-database"
-            },
-            {
-                "name": "Express.js",
-                "icon": "far fa-file-code"
-            },
-            {
-                "name": "Sequelize",
-                "icon": "far fa-file-code"
-            },
-            {
-                "name": "Font Awesome",
-                "icon": "fab fa-font-awesome"
-            }
-        ]
-    },
-    {
-        "name": "Burger app",
-        "subtitle": "A single-page application that shows simple MVC design pattern.",
-        "description": "This is a simple burger logger app that demonstrate the use of MVC design pattern.",
-        "link": "https://phaggio-burger.herokuapp.com/",
-        "github": "https://github.com/phaggio/burger",
-        "imgURL": "/assets/images/projects/burger-app.png",
-        "technologies": [
-            {
-                "name": "JavaScript",
-                "icon": "fab fa-js-square"
-            },
-            {
-                "name": "Express.js",
-                "icon": "far fa-file-code"
-            },
-            {
-                "name": "MySQL",
-                "icon": "fas fa-database"
-            },
-            {
-                "name": "jQuery",
-                "icon": "far fa-file-code"
-            },
-            {
-                "name": "Bootstrap",
-                "icon": "fab fa-bootstrap"
             }
         ]
     },
     {
         "name": "Employee Tracker",
-        "subtitle": "A CLI application where user can communicate with local mysql database.",
+        "subtitle": "A CLI application where user can access local mysql database.",
         "description": "This is a sample CLI application that user can add/edit/remove employees, roles, and teams from a database within the organization.",
         "github": "https://github.com/phaggio/employee-tracker",
         "imgURL": "/assets/images/projects/employee-tracker.png",
         "technologies": [
             {
                 "name": "JavaScript",
+                "type": "language",
                 "icon": "fab fa-js-square"
             },
             {
                 "name": "console.table",
+                "type": "framework",
                 "icon": "far fa-file-code"
             },
             {
                 "name": "inquirer.js",
+                "type": "framework",
                 "icon": "far fa-file-code"
             },
             {
                 "name": "MySQL",
+                "type": "tool",
                 "icon": "fas fa-database"
             }
         ]
@@ -258,27 +155,33 @@
         "imgURL": "/assets/images/projects/order-up.png",
         "technologies": [
             {
-                "name": "React",
-                "icon": "fab fa-react"
-            },
-            {
-                "name": "Express.js",
-                "icon": "far fa-file-code"
-            },
-            {
-                "name": "MongoDB",
-                "icon": "fas fa-database"
-            },
-            {
-                "name": "Node.js",
-                "icon": "fab fa-node-js"
-            },
-            {
                 "name": "JavaScript",
+                "type": "language",
                 "icon": "fab fa-js-square"
             },
             {
+                "name": "MongoDB",
+                "type": "tool",
+                "icon": "fas fa-database"
+            },
+            {
+                "name": "Express.js",
+                "type": "framework",
+                "icon": "far fa-file-code"
+            },
+            {
+                "name": "React",
+                "type": "framework",
+                "icon": "fab fa-react"
+            },
+            {
+                "name": "Node.js",
+                "type": "tool",
+                "icon": "fab fa-node-js"
+            },
+            {
                 "name": "Bootstrap",
+                "type": "framework",
                 "icon": "fab fa-bootstrap"
             }
         ]

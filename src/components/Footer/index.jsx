@@ -6,8 +6,8 @@ const json = footerJSON ? footerJSON[0] : {};
 const Footer = () => {
 
   return (
-    <nav className="navbar fixed-bottom navbar-dark bg-dark justify-content-between">
-      <small className="text-light text-center">
+    <nav className="navbar fixed-bottom bg-light justify-content-between">
+      <small className="text-secondary text-center">
         react portfolio by phaggio | wang.richardc@outlook.com | (425) 616-5550 | www.github.com/phaggio
       </small>
 
