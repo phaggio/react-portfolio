@@ -6,7 +6,7 @@
         "note": "The application is developed using TypeScript. It is hosted on Heroku. The database is connected to cloud.mongodb.com",
         "link": "https://phaggio-project-tracker.herokuapp.com/",
         "github": "https://github.com/phaggio/project-tracker",
-        "imgURL": "/assets/images/projects/project-tracker-2.png",
+        "imgURL": "/assets/images/projects/project-tracker.png",
         "technologies": [
             {
                 "name": "TypeScript",
