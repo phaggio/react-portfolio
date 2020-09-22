@@ -19,19 +19,17 @@ const ProjectItem = props => {
   const [hover, updateHover] = useState('');
 
   return (
-    <div className="btn btn-sm py-0 mx-1 mx-lg-0 my-lg-1"
+    <div className="btn btn-sm d-flex flex-column align-items-center justify-content-center py-0 mx-1 mx-lg-0 my-lg-1"
       onClick={() => props.pressed(props.index)}
       onMouseEnter={() => updateHover(props.index)}
       onMouseLeave={() => updateHover('')}
       style={hover === props.index ? onHover : notHover}>
-
       <label className="m-0 p-1 text-wrap">
         {props.name}
       </label>
       <small className="d-none d-lg-block text-left p-1">
         {props.subtitle}
       </small>
-
     </div>
   )
 }

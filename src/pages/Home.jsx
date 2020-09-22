@@ -1,5 +1,4 @@
 import React from 'react';
-import TechListItem from '../components/TechListItem';
 import aboutMe from '../json/about-me.json';
 
 const githubDir = `/react-portfolio`;
