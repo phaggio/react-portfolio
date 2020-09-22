@@ -48,7 +48,10 @@ const Home = () => {
 						<label className="text-center text-md-left font-weight-light">Languages</label>
 						<ul className="list-group list-group-flush w-100">
 							{content.languages.map(lang =>
-								<TechListItem key={lang.name} type={lang.type} icon={lang.icon} name={lang.name} />
+								<li className="list-group-item" key={lang.name} type={lang.type} icon={lang.icon} name={lang.name}>
+									<i className={`${lang.icon} mr-2`} />
+									{lang.name}
+								</li>
 							)}
 						</ul>
 					</div>
@@ -59,7 +62,10 @@ const Home = () => {
 						<label className="text-center text-md-left font-weight-light">Tools</label>
 						<ul className="list-group list-group-flush w-100">
 							{content.tools.map(tool =>
-								<TechListItem key={tool.name} type={tool.type} icon={tool.icon} name={tool.name} />
+								<li className="list-group-item" key={tool.name} type={tool.type} icon={tool.icon} name={tool.name}>
+									<i className={`${tool.icon} mr-2`} />
+									{tool.name}
+								</li>
 							)}
 						</ul>
 					</div>
@@ -71,7 +77,10 @@ const Home = () => {
 						<label className="text-center text-md-left font-weight-light">Framework/Libraries</label>
 						<ul className="list-group list-group-flush w-100">
 							{content.libraries.map(lib =>
-								<TechListItem key={lib.name} type={lib.type} icon={lib.icon} name={lib.name} />
+								<li className="list-group-item" key={lib.name} type={lib.type} icon={lib.icon} name={lib.name}>
+									<i className={`${lib.icon} mr-2`} />
+									{lib.name}
+								</li>
 							)}
 						</ul>
 					</div>

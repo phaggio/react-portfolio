@@ -26,12 +26,12 @@ const TechListItem = (props) => {
   })(props.type)
 
   return (
-    <li className="list-group-item mt-1 rounded py-1"
-      style={color}
-      key={props.name}>
+    <div className="badge p-1 mx-1"
+      key={props.name}
+      style={color}>
       <i className={`${props.icon} mr-2`} />
       {props.name}
-    </li>
+    </div>
   )
 }
 

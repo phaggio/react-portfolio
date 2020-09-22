@@ -19,16 +19,6 @@
         "icon": "fas fa-database"
       },
       {
-        "name": "HTML5",
-        "type": "language",
-        "icon": "fab fa-html5"
-      },
-      {
-        "name": "CSS",
-        "type": "language",
-        "icon": "fab fa-css3-alt"
-      },
-      {
         "name": "Python",
         "type": "language",
         "icon": "fab fa-python"

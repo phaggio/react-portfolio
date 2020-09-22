@@ -76,7 +76,7 @@ const ProjectDetail = props => {
           {/* tech stack  */}
           <div className="shadow rounded p-2">
             <label className="font-weight-light">Technologies:</label>
-            <ul className="list-group list-group-flush">
+            <div className="">
               {props.project.technologies ?
                 props.project.technologies.map(tech =>
 
@@ -89,7 +89,7 @@ const ProjectDetail = props => {
                 :
                 ``
               }
-            </ul>
+            </div>
           </div>
         </div>
 
