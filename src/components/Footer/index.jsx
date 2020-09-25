@@ -6,7 +6,7 @@ const json = footerJSON ? footerJSON[0] : {};
 const Footer = () => {
 
   return (
-    <nav className="navbar fixed-bottom bg-light justify-content-between">
+    <nav className="navbar fixed-bottom bg-light d-flex justify-content-between flex-column flex-md-row">
       <small className="text-secondary text-center">
         react portfolio by phaggio | wang.richardc@outlook.com | (425) 616-5550 | www.github.com/phaggio
       </small>
@@ -16,16 +16,16 @@ const Footer = () => {
         <a className="nav-item nav-link p-0 ml-2" href={`mailto:${json.email}`}>
           <i className="fas fa-envelope-square fa-2x"></i>
         </a>
-
         <a className="nav-item nav-link p-0 ml-2" href={json.github}
           rel="noopener noreferrer" target="_blank">
           <i className="fab fa-github-square fa-2x"></i>
         </a>
-
         <a className="nav-item nav-link p-0 ml-2" href={json.linkedIn}
           rel="noopener noreferrer" target="_blank">
           <i className="fab fa-linkedin fa-2x"></i>
         </a>
+
+
       </div>
 
     </nav>

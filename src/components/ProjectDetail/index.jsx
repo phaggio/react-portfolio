@@ -11,8 +11,8 @@ const imgSize = {
 const ProjectDetail = props => {
 
   return (
-    <div>
-      <div className="row pb-5">
+    <div className="  pb-5 mb-5 pb-sm-0 mb-sm-0">
+      <div className="row">
 
         {/* title and description */}
         <div className="col-12">
@@ -39,10 +39,9 @@ const ProjectDetail = props => {
 
 
         {/* links and tech stack list */}
-        {/* <div className="col-12 col-md-6 col-lg-5"> */}
-
-        {/* links */}
         <div className="col-12 col-md-6 col-lg-5">
+
+          {/* links */}
           <div className="mb-sm-2 shadow rounded p-2">
             <label className="font-weight-light">Links:</label>
             <div className="d-flex flex-column align-items-center">
@@ -74,7 +73,7 @@ const ProjectDetail = props => {
 
 
           {/* tech stack  */}
-          <div className="shadow rounded p-2">
+          <div className="mb-sm-2 shadow rounded p-2">
             <label className="font-weight-light">Technologies:</label>
             <div className="">
               {props.project.technologies ?
