@@ -37,11 +37,6 @@
                 "name": "Bootstrap",
                 "type": "framework",
                 "icon": "fab fa-bootstrap"
-            },
-            {
-                "name": "Font Awesome",
-                "type": "framework",
-                "icon": "fab fa-font-awesome"
             }
         ]
     },
